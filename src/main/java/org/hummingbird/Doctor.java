@@ -1,20 +1,10 @@
 package org.hummingbird;
 
-public class Doctor implements Staff {
-    public Doctor(String qualification) {
-        this.qualification = qualification;
-    }
+import org.springframework.stereotype.Component;
 
-    private String qualification;
+//@Component - commented out to show that the bean can be configured in BeanConfig.java
+public class Doctor implements Staff {
     public void assist() {
         System.out.println("The doctor is assisting.");
-    }
-
-    public String getQualification() {
-        return qualification;
-    }
-
-    public void setQualification(String qualification) {
-        this.qualification = qualification;
     }
 }
