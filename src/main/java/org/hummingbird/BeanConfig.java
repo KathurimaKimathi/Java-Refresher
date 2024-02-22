@@ -10,8 +10,8 @@ import org.springframework.stereotype.Component;
 public class BeanConfig {
 
     // You can also configure your beans here and remove the Component annotation from Doctor.java
-    @Bean
-    public Doctor doctor() {
-        return new Doctor();
-    }
+//    @Bean
+//    public Doctor doctor() {
+//        return new Doctor();
+//    }
 }

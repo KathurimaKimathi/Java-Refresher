@@ -7,6 +7,7 @@ New concepts are tackled in different branches.
 Concepts covered so far in this branch:
 - Dependency injection (XML class bean configuration)
 - Dependency injection (Java class bean configuration) using the `@Component` annotation
+- Spring contexts and bean scopes for managing bean lifecycles
 
 Stack:
 - Java
