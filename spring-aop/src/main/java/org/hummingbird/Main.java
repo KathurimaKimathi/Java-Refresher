@@ -7,9 +7,7 @@ public class Main {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
 
-        Doctor staffDoctor = context.getBean(Doctor.class);
-        staffDoctor.assist();
-        staffDoctor.setQualification("MBA");
-
+        ShoppingCart shoppingCart = context.getBean(ShoppingCart.class);
+        shoppingCart.checkout("PROCESSING");
     }
 }
