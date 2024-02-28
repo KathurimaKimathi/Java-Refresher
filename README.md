@@ -13,3 +13,8 @@ Stack:
 - Java
 - XML
 - Springboot Framework
+- Lombok
+- Spring Actuators
+- JPA
+- Profiling
+- Unit test (Mockito)
